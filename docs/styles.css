@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');/*es una fuente importada*/
+
+@keyframes color-change {
+    0% { color: rgb(255, 255, 255); }
+    50% { color: rgb(27, 27, 27); }
+    100% { color: rgb(40, 45, 40); }
+}
+
+
+
+body{
+    background-color: black;
+}
+
+#main{
+    background-image : url('https://us.123rf.com/450wm/ninavetrova/ninavetrova1809/ninavetrova180900050/110959835-vector-imagen-de-calendario-maya-en-la-moneda-cultura-mexicana-la-civilizaci%C3%B3n-azteca.jpg?ver=6');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#main-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center; /*permite centrar de forma vertical*/
+    align-items: center; /*permite centrar de forma horizontal*/
+    width: 500px;
+    height: 500px;
+}
+
+.main-titulo {
+    
+    background-image: linear-gradient(to right, #b7b700, #303130);
+    color: white;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    font-size: 3rem;
+    font-weight: 900;
+    border-radius: 10px;
+    /*Animación:*/
+    animation: color-change 2.5s infinite;
+}
+
+#parte-intermedia{
+    display: flex;
+    flex-direction: column;
+    height: 110%;
+    width: 100%;
+    margin: 25px;
+    padding: 2px;
+    background-color: black;
+}
+
+.titulo {
+    
+    color:white;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    font-size: xx-large;
+}
+
+#parte-intermedia2{
+    display: flex;
+    flex-direction: row;
+}
+
+#left-part{
+    width: 50%;
+}
+#img-videogame{
+    margin-top: 20%;
+}
+#img-videogame img{
+    width: 85%;
+    height: 70%;
+}
+
+#right-part{
+    width: 50%;
+}
+
+#texto-info-num-mayas{
+    
+    padding: 20px;
+    margin: 11px;
+    background-color: #d1d1296e;
+    border-radius: 20px;
+    
+}
+p{
+    color: white;
+}
+
+#play{
+    display: flex; /*permite utilizar flexbox para modificar la disposición*/
+    justify-content: center; /*permite centrar de forma vertical*/
+    align-items: center; /*permite centrar de forma horizontal*/
+}
+
+#button-play{
+    width: 200px;
+	height: 200px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	border: 2px solid rgb(55, 55, 55);
+    margin: 10px;  
+    background-color: black;
+}
+#button-play:hover{
+    background-color: gold;
+    background-image: linear-gradient(225deg, #111111, #784BA050, #2B86C510);
+    color: #0D172E; 
+} 
+
+#button-play img{
+    width:90%;
+    height: 80%;
+    border-radius: 15%;
+}
+
+a{
+    width: 200px;
+	height: 200px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	border: 2px solid rgb(55, 55, 55);
+    margin: 10px;  
+    background-color: black;
+}
+a:hover{
+    background-color: gold;
+    background-image: linear-gradient(225deg, #111111, #784BA050, #2B86C510);
+    color: #0D172E; 
+} 
+
+a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7%;
+}
+
+#button-team{
+    width: 200px;
+	height: 200px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	border: 2px solid rgb(55, 55, 55);
+    margin: 10px;  
+    background-color: black;
+}
+#button-team:hover{
+    background-color: gold;
+    background-image: linear-gradient(225deg, #111111, #784BA050, #2B86C510);
+    color: #0D172E; 
+} 
+
+#button-team img{
+    width:90%;
+    height: 80%;
+    border-radius: 15%;
+}
+/*debajo esta la parte que falta editar*/
+
+#team{
+    display: flex;
+    flex-direction: column;
+}
+#top-part{
+    display: flex;
+    flex-direction: row;
+}
+#bottom-part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#texto-info-team{
+    width: 33%;
+    padding: 20px;
+    margin: 11px;
+    background-color: #d1d1296e;
+    border-radius: 20px;
+}
+
+
+
+
+
+#juegos{
+    display: flex; 
+    flex-direction: column;
+}
+
+#opciones{
+    display: flex; /*permite utilizar flexbox para modificar la disposición*/
+    justify-content: center; /*permite centrar de forma vertical*/
+    align-items: center; /*permite centrar de forma horizontal*/
+}
+
+
+label {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+.tarjeta-de-mokepon {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	border: 2px solid rgb(55, 55, 55);
+    margin: 10px;
+}
+.tarjeta-de-mokepon img{
+    width:100%;
+    height: 100%;
+    border-radius: 15%;
+}
+
+
+
+.tarjeta-de-mokepon:hover{
+    background-color: gold;
+    background-image: linear-gradient(225deg, #111111, #784BA050, #2B86C510);
+    color: #0D172E; 
+} /*hover permite pintar la tarjeta cuando el cursor este encima*/
+
+#boton-selec-mascota{
+    display: flex; /*permite utilizar flexbox para modificar la disposición*/
+    justify-content: center; /*permite centrar de forma vertical*/
+    align-items: center; /*permite centrar de forma horizontal*/
+}
+
+
+
+
+
+#boton-regresar{
+    width: 200px;
+	height: 50px;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 15px;
+    
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	border: 2px solid rgb(55, 55, 55);
+    margin: 10px;  
+    background-color: black;
+}
+#boton-regresar:hover{
+    background-color: gold;
+    background-image: linear-gradient(225deg, #111111, #784BA050, #2B86C510);
+    color: #0D172E; 
+} 
+
+#boton-regresar2{
+    width: 200px;
+	height: 50px;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 15px;
+    
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	border: 2px solid rgb(55, 55, 55);
+    margin: 10px;  
+    background-color: black;
+}
+#boton-regresar2:hover{
+    background-color: gold;
+    background-image: linear-gradient(225deg, #111111, #784BA050, #2B86C510);
+    color: #0D172E; 
+} 
+
+#botones-secundarios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 123px;
+}
+
+
+#botones-secundarios2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#titulo-parte-juegos{
+    margin-bottom: 35px;
+}
+
+#titulo-parte-intermedia{
+    margin-top: 35px;
+}
+
+
+
+.razones{
+    color: #d1ff28;
+}
